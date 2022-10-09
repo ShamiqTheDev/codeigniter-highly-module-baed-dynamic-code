@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Meta -->
+    <meta name="description" content="Pakistan Reinsurance Company Limited">
+
+    <title>Pakistan Reinsurance Company Limited</title>
+    <!-- vendor css -->
+    <link href="../lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../lib/Ionicons/css/ionicons.css" rel="stylesheet">
+    <link href="../lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link href="../lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
+    <link href="../lib/rickshaw/rickshaw.min.css" rel="stylesheet">
+    <link href="../lib/chartist/chartist.css" rel="stylesheet">
+	<link href="../lib/highlightjs/github.css" rel="stylesheet">
+	<link href="../lib/select2/css/select2.min.css" rel="stylesheet">
+    <link href="../lib/jt.timepicker/jquery.timepicker.css" rel="stylesheet">
+    <link href="../lib/jquery.steps/jquery.steps.css" rel="stylesheet">
+	
+
+    <!-- Bracket CSS -->
+    <link rel="stylesheet" href="../css/bracket.css">
+	
+	
+	
+  </head>
+
+  <body>
+
+    <!-- ########## START: LEFT PANEL ########## -->
+    <div class="br-logo"><a href="index.html"><img src="../img/logo.png" alt=""></a></div>
+    <div class="br-sideleft overflow-y-auto">
+      <label class="sidebar-label pd-x-15 mg-t-20">Navigation</label>
+      <div class="br-sideleft-menu">
+        <a href="index.html" class="br-menu-link ">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-home-outline tx-22"></i>
+            <span class="menu-item-label">Dashboard</span>
+          </div><!-- menu-item -->
+        </a>
+       
+        
+        <a href="#" class="br-menu-link active show-sub">
+          <div class="br-menu-item">
+	
+            <i class="menu-item-icon fa fa-handshake-o tx-18"></i>
+            <span class="menu-item-label">Treaty</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+        </a><!-- br-menu-link -->
+        <ul class="br-menu-sub nav flex-column">
+        <li class="nav-item"><a href="Treaty_Statistics.html" class="nav-link">Treaty Statistics</a></li>
+		<li class="nav-item"><a href="Treaty_Agrement.html" class="nav-link">Treaty Agrement</a></li>
+        <li class="nav-item"><a href="Treaty_Slip.html" class="nav-link">Treaty Slip</a></li>
+        </ul>
+        <a href="#" class="br-menu-link">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon fa fa-users tx-18"></i>
+            <span class="menu-item-label">Facultative</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+        </a><!-- br-menu-link -->
+        <ul class="br-menu-sub nav flex-column">
+          <li class="nav-item"><a href="Request-Node.html" class="nav-link">Request Node</a></li>
+          <li class="nav-item"><a href="Note-Sheet-Summary.html" class="nav-link">Note Sheet Summary</a></li>
+          <li class="nav-item"><a href="Clossing-Particular.html" class="nav-link">Clossing Particular</a></li>
+          <li class="nav-item"><a href="Endorsement.html" class="nav-link">Endorsement</a></li>
+          <li class="nav-item"><a href="Table-Dynamic.html" class="nav-link">Table Dynamic</a></li>
+        </ul>
+        <a href="#" class="br-menu-link">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon fa fa-reply tx-18"></i>
+            <span class="menu-item-label">Retrocessions</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+        </a><!-- br-menu-link -->
+        <ul class="br-menu-sub nav flex-column">
+          <li class="nav-item"><a href="Underwriting-Information.html" class="nav-link">Underwriting Information</a></li>
+          <li class="nav-item"><a href="Broker.html" class="nav-link">Broker</a></li>
+          <li class="nav-item"><a href="Analysis.html" class="nav-link">Analysis</a></li>
+          <li class="nav-item"><a href="Debit-Note.html" class="nav-link">Debit Note</a></li>
+          <li class="nav-item"><a href="Endorsement.html" class="nav-link">Endorsement</a></li>
+        </ul>
+       
+     
+	  <a href="#" class="br-menu-link">
+          <div class="br-menu-item">
+            <i class="menu-item-icon fa fa-exclamation-triangle tx-18"></i>
+            <span class="menu-item-label">Claims </span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+        </a><!-- br-menu-link -->
+        <ul class="br-menu-sub nav flex-column">
+          <li class="nav-item"><a href="Pla.html" class="nav-link">Pla</a></li>
+          <li class="nav-item"><a href="Claim.html" class="nav-link">Claim</a></li>
+        </ul>
+		 <a href="Extra.html" class="br-menu-link">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-settings tx-18"></i>
+            <span class="menu-item-label">Extra </span>
+          </div><!-- menu-item -->
+        </a>
+		
+      </div><!-- br-sideleft-menu -->
+
+      <label class="sidebar-label pd-x-15 mg-t-25 mg-b-20 tx-info op-9">Information Summary</label>
+
+      <div class="info-list">
+        <div class="d-flex align-items-center justify-content-between pd-x-15">
+          <div>
+            <p class="tx-10 tx-roboto tx-uppercase tx-spacing-1 tx-white op-3 mg-b-2 space-nowrap">Memory Usage</p>
+            <h5 class="tx-lato tx-white tx-normal mg-b-0">32.3%</h5>
+          </div>
+          <span class="peity-bar" data-peity='{ "fill": ["#336490"], "height": 35, "width": 60 }'>8,6,5,9,8,4,9,3,5,9</span>
+        </div><!-- d-flex -->
+
+        <div class="d-flex align-items-center justify-content-between pd-x-15 mg-t-20">
+          <div>
+            <p class="tx-10 tx-roboto tx-uppercase tx-spacing-1 tx-white op-3 mg-b-2 space-nowrap">CPU Usage</p>
+            <h5 class="tx-lato tx-white tx-normal mg-b-0">140.05</h5>
+          </div>
+          <span class="peity-bar" data-peity='{ "fill": ["#1C7973"], "height": 35, "width": 60 }'>4,3,5,7,12,10,4,5,11,7</span>
+        </div><!-- d-flex -->
+
+        <div class="d-flex align-items-center justify-content-between pd-x-15 mg-t-20">
+          <div>
+            <p class="tx-10 tx-roboto tx-uppercase tx-spacing-1 tx-white op-3 mg-b-2 space-nowrap">Disk Usage</p>
+            <h5 class="tx-lato tx-white tx-normal mg-b-0">82.02%</h5>
+          </div>
+          <span class="peity-bar" data-peity='{ "fill": ["#8E4246"], "height": 35, "width": 60 }'>1,2,1,3,2,10,4,12,7</span>
+        </div><!-- d-flex -->
+
+        <div class="d-flex align-items-center justify-content-between pd-x-15 mg-t-20">
+          <div>
+            <p class="tx-10 tx-roboto tx-uppercase tx-spacing-1 tx-white op-3 mg-b-2 space-nowrap">Daily Traffic</p>
+            <h5 class="tx-lato tx-white tx-normal mg-b-0">62,201</h5>
+          </div>
+          <span class="peity-bar" data-peity='{ "fill": ["#9C7846"], "height": 35, "width": 60 }'>3,12,7,9,2,3,4,5,2</span>
+        </div><!-- d-flex -->
+      </div><!-- info-lst -->
+
+      <br>
+    </div><!-- br-sideleft -->
+    <!-- ########## END: LEFT PANEL ########## -->
+
+    <!-- ########## START: HEAD PANEL ########## -->
+    <div class="br-header">
+      <div class="br-header-left">
+        <div class="navicon-left hidden-md-down"><a id="btnLeftMenu" href=""><i class="icon ion-navicon-round"></i></a></div>
+        <div class="navicon-left hidden-lg-up"><a id="btnLeftMenuMobile" href=""><i class="icon ion-navicon-round"></i></a></div>
+        <div class="input-group hidden-xs-down wd-170 transition">
+          <input id="searchbox" type="text" class="form-control" placeholder="Search">
+          <span class="input-group-btn">
+            <button class="btn btn-secondary" type="button"><i class="fa fa-search"></i></button>
+          </span>
+        </div><!-- input-group -->
+      </div><!-- br-header-left -->
+      <div class="br-header-right">
+        <nav class="nav">
+          <div class="dropdown">
+            <a href="" class="nav-link pd-x-7 pos-relative" data-toggle="dropdown">
+              <i class="icon ion-ios-bell-outline tx-24"></i>
+              <!-- start: if statement -->
+              <span class="square-8 bg-danger pos-absolute t-15 r-5 rounded-circle"></span>
+              <!-- end: if statement -->
+            </a>
+            <div class="dropdown-menu dropdown-menu-header wd-300 pd-0-force">
+              <div class="d-flex align-items-center justify-content-between pd-y-10 pd-x-20 bd-b bd-gray-200">
+                <label class="tx-12 tx-info tx-uppercase tx-semibold tx-spacing-2 mg-b-0">Notifications</label>
+                <a href="" class="tx-11">Mark All as Read</a>
+              </div><!-- d-flex -->
+
+              <div class="media-list">
+                <!-- loop starts here -->
+                <a href="" class="media-list-link read">
+                  <div class="media pd-x-20 pd-y-15">
+                    <img src="../img/280x280.png" class="wd-40 rounded-circle" alt="">
+                    <div class="media-body">
+                      <p class="tx-13 mg-b-0 tx-gray-700"><strong class="tx-medium tx-gray-800">Suzzeth Bungaos</strong> tagged you and 18 others in a post.</p>
+                      <span class="tx-12">October 03, 2019 8:45am</span>
+                    </div>
+                  </div><!-- media -->
+                </a>
+                <!-- loop ends here -->
+                <a href="" class="media-list-link read">
+                  <div class="media pd-x-20 pd-y-15">
+                    <img src="../img/280x280.png" class="wd-40 rounded-circle" alt="">
+                    <div class="media-body">
+                      <p class="tx-13 mg-b-0 tx-gray-700"><strong class="tx-medium tx-gray-800">Mellisa Brown</strong> appreciated your work <strong class="tx-medium tx-gray-800">The Social Network</strong></p>
+                      <span class="tx-12">October 02, 2017 12:44am</span>
+                    </div>
+                  </div><!-- media -->
+                </a>
+                <a href="" class="media-list-link read">
+                  <div class="media pd-x-20 pd-y-15">
+                    <img src="../img/280x280.png" class="wd-40 rounded-circle" alt="">
+                    <div class="media-body">
+                      <p class="tx-13 mg-b-0 tx-gray-700">20+ new items added are for sale in your <strong class="tx-medium tx-gray-800">Sale Group</strong></p>
+                      <span class="tx-12">October 01, 2019 10:20pm</span>
+                    </div>
+                  </div><!-- media -->
+                </a>
+                <a href="" class="media-list-link read">
+                  <div class="media pd-x-20 pd-y-15">
+                    <img src="../img/280x280.png" class="wd-40 rounded-circle" alt="">
+                    <div class="media-body">
+                      <p class="tx-13 mg-b-0 tx-gray-700"><strong class="tx-medium tx-gray-800">Julius Erving</strong> wants to connect with you on your conversation with <strong class="tx-medium tx-gray-800">Ronnie Mara</strong></p>
+                      <span class="tx-12">October 01, 2019 6:08pm</span>
+                    </div>
+                  </div><!-- media -->
+                </a>
+                <div class="pd-y-10 tx-center bd-t">
+                  <a href="" class="tx-12"><i class="fa fa-angle-down mg-r-5"></i> Show All Notifications</a>
+                </div>
+              </div><!-- media-list -->
+            </div><!-- dropdown-menu -->
+          </div><!-- dropdown -->
+          <div class="dropdown">
+            <a href="" class="nav-link nav-link-profile" data-toggle="dropdown">
+              <span class="logged-name hidden-md-down">Irfan Ahmed</span>
+              <img src="../img/64x64.png" class="wd-32 rounded-circle" alt="">
+              <span class="square-10 bg-success"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-header wd-200">
+              <ul class="list-unstyled user-profile-nav">
+                <li><a href=""><i class="icon ion-ios-person"></i> Edit Profile</a></li>
+                <li><a href=""><i class="icon ion-ios-gear"></i> Settings</a></li>
+                <li><a href="signin-simple.html"><i class="icon ion-power"></i> Sign Out</a></li>
+              </ul>
+            </div><!-- dropdown-menu -->
+          </div><!-- dropdown -->
+        </nav>
+      </div><!-- br-header-right -->
+    </div><!-- br-header -->
+    <!-- ########## END: HEAD PANEL ########## -->
+
+    <!-- ########## START: MAIN PANEL ########## -->
+	
+	
+    <div class="br-mainpanel">
+	<div class="br-pageheader pd-y-15 pd-l-20">
+      <nav class="breadcrumb pd-0 mg-0 tx-12">
+        <a class="breadcrumb-item" href="#">Treaty</a>
+        <span class="breadcrumb-item active">Treaty Agrement</span>
+      </nav>
+    </div>
+      <div class="pd-30">
+        <h4 class="tx-gray-800 mg-b-5">Treaty Agrement</h4>
+        <p class="mg-b-0">Please follow simple step to enter Treaty Agrement into the system.</p>
+      </div><!-- d-flex -->
+
+      
+		
+      <div class="br-pagebody mg-t-5 pd-x-30">
+	  
+	  	  <div class="br-section-wrapper">
+		
+  
+  <div id="wizard1">
+            <h3>General</h3>
+            <section>
+              <div class="br-section-wrapper">
+
+            <div class="row mg-b-25">
+              
+			  <div class="col-lg-4">
+                <div class="form-group">
+                  <label class="form-control-label">Treaty Type  <span class="tx-danger">*</span></label>
+                 <select class="form-control select2" data-placeholder="Choose Option">
+                    <option label="Choose Option"></option>
+                    <option value="Option">Renewal</option>
+					<option value="Option">Fresh</option>
+		            
+                  </select>
+				  
+                </div>
+              </div>
+			  
+			  <div class="col-lg-4">
+                <div class="form-group">
+                  <label class="form-control-label">Cedent   <span class="tx-danger">*</span></label>
+                 <select class="form-control select2" data-placeholder="Choose Option">
+                    <option label="Choose Option"></option>
+                    <option value="Option">Atlas Insurance</option>
+					<option value="Option">Adam Jee Insurance</option>
+		            <option value="Option">New Jubilee Insurance</option>
+	                <option value="Option">EFU Insurance</option>
+                    
+                  </select>
+				  
+                </div>
+              </div>
+			  
+                
+			  
+			  
+			  <div class="col-lg-4">
+                <div class="form-group">
+                  <label class="form-control-label">Meeting Date</label>   
+							
+            <div class="input-group">
+              <span class="input-group-addon"><i class="icon ion-calendar tx-16 lh-0 op-6"></i></span>
+              <input type="text" class="form-control fc-datepicker" placeholder="MM/DD/YYYY">
+            </div>
+                 
+                  
+                </div>
+              </div><!-- col-4 -->
+              
+                <div class="col-lg-4">
+                <div class="form-group">
+                  <label class="form-control-label">Meeting Held At<span class="tx-danger">*</span></label>
+                 <select class="form-control select2" data-placeholder="Choose Option">
+                    <option label="Choose Option"></option>
+                    <option value="Option">Option 1</option>
+					<option>Choose Venue</option>
+                    <option>PRCL HEAD OFFICE KARACHI</option>
+          			<option>PRCL NZO LAHORE</option>
+					
+					<option>---</option>
+                    
+                  </select>
+				  
+                </div>
+              </div><!-- col-4 -->									
+			
+<div class="col-lg-4">
+                <div class="form-group">
+                  <label class="form-control-label">PRCL Officials   <span class="tx-danger">*</span></label>
+                 <select class="form-control select2" data-placeholder="Choose Option">
+                    <option label="Choose Option"></option>
+                    <option value="Option">Mr. Muhammed Junaid Moti, E.D. (U/W)</option>
+					<option value="Option">Mr. Mushtaq Hussain, Officer (Treaty/BD)</option>
+					<option value="Option">Mr. Fazal Ahmed Essani,  (Treaty/BD)</option>				            
+                  </select>
+				  
+                </div>
+              </div>
+
+                <div class="col-lg-4">
+                <div class="form-group">
+                  <label class="form-control-label">Cedent Officials   <span class="tx-danger">*</span></label>
+                 <select class="form-control select2" data-placeholder="Choose Option">
+                    <option label="Choose Option"></option>
+                    <option value="Option">Mr. M.Faisal Khan C.O.O</option>
+					<option value="Option">Mr.Farrukh Afsar Manager</option>
+					</select>
+				  
+                </div>
+              </div>
+			
+			  <div class="col-lg-4">
+                <div class="form-group">
+                  <label class="form-control-label">Treaty Name <span class="tx-danger">*</span></label>
+                 <select class="form-control select2" data-placeholder="Choose Option">
+                    <option label="Choose Option"></option>
+                    <option value="Option">Option 1</option>
+					<option>Choose Treaty</option>
+                    <option>Fire 1st Surplus</option>
+          				<option>Marine Surplus</option>
+					<option>Terrorism Quota Share</option>
+					<option>---</option>
+                    </select>
+				  
+				  <div class="col-lg-4">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">Paragraph #</label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+			   <div class="col-lg-4">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">Paragraph Text</label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+			  <div class="col-lg-2">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">User</label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+			   <div class="col-lg-2">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">User Remarks</label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+                </div>
+              </div><!-- col-4 -->
+			  
+			  
+			  <!--div class="col-lg-4">
+                <div class="form-group">
+                  <label class="form-control-label">Treaty   <span class="tx-danger">*</span></label>
+                 <select class="form-control select2" data-placeholder="Choose Option">
+                    <option label="Choose Option"></option>
+                    <option value="Option">Atlas Insurance-2020</option>
+					<option value="Option">Adam Jee Insurance-2020</option>
+		            <option value="Option">New Jubilee Insurance-2020</option>
+	                <option value="Option">EFU Insurance-2020</option>
+                    
+                  </select>
+				  
+                </div>
+              </div-->
+			  		  
+			  <!--div class="col-lg-4">
+                <div class="form-group">
+                  <label class="form-control-label">Period </label>
+				  <div class="input-group">
+                <span class="input-group-addon"><i class="icon ion-calendar tx-16 lh-0 op-6"></i></span>
+              <input type="text" class="form-control fc-datepicker" placeholder="MM/DD/YYYY">
+              </div>
+                  
+                </div>
+              </div--><!-- col-4 -->
+			  
+			  
+			  
+              <!--div class="col-lg-4">
+                <div class="form-group">
+                  <label class="form-control-label">Category  <span class="tx-danger">*</span></label>
+                 <select class="form-control select2" data-placeholder="Choose Option">
+                    <option label="Choose Option"></option>
+                    <option value="Option">Option 1</option>
+                    
+                  </select>
+				  
+                </div>
+              </div--><!-- col-4 -->
+			  
+			  
+		
+			 	<!--div class="col-lg-4 mg-t-20 mg-lg-t-0 cedent">
+			 	<div class="form-group">
+				   <label class="form-control-label">Cedent  <span class="tx-danger">*</span></label>
+				  <select class="form-control select2 js-example-basic-multiple" >
+					<option value="Firefox" selected="selected">Mayotte</option>
+					<option value="Chrome">Mayotte</option>
+					<option value="Safari">Micronesia, Federated States of</option>
+				  </select>
+			   </div>
+            </div-->
+			
+			
+			
+			<!--div class="col-lg-4">
+                <div class="form-group">
+                  <label class="form-control-label">Type Of Business   <span class="tx-danger">*</span></label>
+                 <select class="form-control select2" data-placeholder="Choose Option">
+                    <option label="Choose Option"></option>
+                    <option value="Option">Option 1</option>
+                    
+                  </select>
+				  
+                </div>
+              </div-->
+			  
+			  
+			  <!--div class="col-lg-4">
+                <div class="form-group">
+                  <label class="form-control-label">Risk Type   <span class="tx-danger">*</span></label>
+                 <select class="form-control select2" data-placeholder="Choose Option">
+                    <option label="Choose Option"></option>
+                    <option value="Option">Option 1</option>
+                    
+                  </select>
+				  
+                </div>
+              </div-->
+			
+			  
+			  <!--div class="col-lg-4">
+                <div class="form-group">
+                  <label class="form-control-label">Currency    <span class="tx-danger">*</span></label>
+                 <select class="form-control select2" data-placeholder="Choose Option">
+                    <option label="Choose Option"></option>
+                    <option value="Option">Option 1</option>
+                    
+                  </select>
+				  
+                </div>
+              </div-->
+			  
+			  
+              <!--div class="col-lg-4">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">Cover Limit </label>
+                  <input class="form-control" type="text" name="" value="" placeholder="">
+                </div>
+              </div>
+			  
+			  
+			  
+			  <div class="col-lg-2">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">Commission Rate</label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+			  <div class="col-lg-2">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">% of </label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+			  
+			  
+              <div class="col-lg-4">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">Mode of Payment <span class="tx-danger">*</span></label>
+                  <select class="form-control select2" data-placeholder="Choose Option">
+                    <option label="Choose Option"></option>
+                    <option value="Option">Option 1</option>
+                  </select>
+                </div>
+              </div--><!-- col-4 -->
+			  
+			  
+			  <!--div class="col-lg-4">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">PRCL Share Percent</label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+			  
+			  <div class="col-lg-4">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">Cedent Share Percent</label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+			  
+			  
+            </div--><!-- row -->
+
+
+            <!--<div class="form-layout-footer">
+              <button class="btn btn-info">Submit Form</button>
+              <button class="btn btn-secondary">Cancel</button>
+            </div>-->
+			
+			<!-- form-layout-footer -->
+          </div><!-- form-layout -->
+
+
+
+            </section>
+
+            <h3>PRCL Participation</h3>
+            <section>
+			<div class="br-section-wrapper">
+
+             <table id="datatable-buttons" class="table table-striped table-bordered">
+                                                                <!--thead class="thead-dark"-->
+                                                                <tr>
+                                                                    <th scope="col">S #</b></th>
+                                                                    <th scope="col">Type of Treaty</th>
+																	<th scope="col">PRCL Share Previous Year</th>
+																	<th scope="col">Proposed PRCL Share </th>
+																	</tr>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <th scope="row" >1</th>
+                                                                    <td>Fire & General Accident Q/S & Surplus</td>
+																	<td>27.50%</td>
+																	<td>Discontinue</td>
+																    </tr>
+                                                                <tr>
+                                                                    <th scope="row" >2</th>
+                                                                    <td>Marine & Cargo Surplus</td>
+																	<td>27.50%</td>
+																	<td>35%</td>
+																    </tr>
+																	<tr>
+                                                                    <th scope="row" >3</th>
+                                                                    <td>Fire & Engineering Risk and Cat XOL</td>
+																	<td>27.50%</td>
+																	<td>35%</td>
+																    </tr>
+																	
+																</thead>
+                                                                <tbody>
+                                                                
+                                                                </tbody>
+                                                            </table>
+			
+			
+			<!--div class="row mg-b-25">
+              <div class="col-lg-4">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">Est. Premium  <span class="tx-danger">*</span></label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+			  <div class="col-lg-4">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">Cedent Retentation </label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+			  
+			  <div class="col-lg-4">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">Market Stability  <span class="tx-danger">*</span></label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+			  <div class="col-lg-4">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">PRCL Retentation</label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+			  <div class="col-lg-4">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">Cedent Total Business  <span class="tx-danger">*</span></label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+			  <div class="col-lg-4">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">Sum Insured  <span class="tx-danger">*</span></label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+			 </div>
+			 </div> 
+            </section-->
+			
+            <!--h3>Loss History</h3>
+            
+			<section>
+            	<div class="br-section-wrapper">
+
+            <div class="row mg-b-25">
+              <div class="col-lg-4">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">Loss History  <span class="tx-danger">*</span></label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+				<div class="col-lg-4">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">Loss Paid  </label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+			  <div class="col-lg-4">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">OutStanding loss  <span class="tx-danger">*</span></label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+			  
+			  </div>
+			  </div> 
+            </section>
+			
+			
+			<h3>EGNPI</h3>
+            <section>
+              <div class="br-section-wrapper">
+
+            <div class="row mg-b-25">
+              <div class="col-lg-6">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">Business Class  <span class="tx-danger">*</span></label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+				<div class="col-lg-6">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">Amount  </label>
+                  <input class="form-control" type="text" name="address" value="" placeholder="">
+                </div>
+              </div>
+			  
+			  
+			  
+			  
+			  </div>
+			  </div>
+            </section>
+			
+			
+			<h3>Installement</h3>
+            <section>
+			<div class="br-section-wrapper">
+
+              <h3>Step 5 Content</h3>
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</p>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</p>
+</div>
+            </section>
+			
+          </div>
+
+</div-->
+
+      </div><!-- br-pagebody -->
+      <footer class="br-footer">
+        <div class="footer-left">
+          <div class="mg-b-2">Copyright &copy; 2020. Pakistan Reinsurance Company Limited. All Rights Reserved.</div>
+          <div>Attentively and carefully made by Sapphire Consulting Services.</div>
+        </div>
+        
+      </footer>
+    </div><!-- br-mainpanel -->
+    <!-- ########## END: MAIN PANEL ########## -->
+
+	<script src="../lib/jquery/jquery.js"></script>
+	<script>
+	$(document).ready(function() {
+		$('.js-example-basic-multiple').attr("multiple", "multiple");
+	});
+	</script>
+    <script src="../lib/popper.js/popper.js"></script>
+    <script src="../lib/bootstrap/bootstrap.js"></script>
+    <script src="../lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <script src="../lib/moment/moment.js"></script>
+    <script src="../lib/jquery-ui/jquery-ui.js"></script>
+    <script src="../lib/jquery-switchbutton/jquery.switchButton.js"></script>
+    <script src="../lib/peity/jquery.peity.js"></script>
+	
+    <script src="../lib/jt.timepicker/jquery.timepicker.js"></script>
+    <script src="../lib/highlightjs/highlight.pack.js"></script>
+    <script src="../lib/jquery.steps/jquery.steps.js"></script>
+    <script src="../lib/parsleyjs/parsley.js"></script>
+	<script src="../lib/select2/js/select2.min.js"></script>
+	
+	
+	
+
+    <script src="../js/bracket.js"></script>
+    <script src="../js/ResizeSensor.js"></script>
+	<!--    <script src="../js/dashboard.js"></script>-->
+    <script>
+       $('#wizard1').steps({
+          headerTag: 'h3',
+          bodyTag: 'section',
+          autoFocus: true,
+          titleTemplate: '<span class="number">#index#</span> <span class="title">#title#</span>'
+        });
+		// Datepicker
+        $('.fc-datepicker').datepicker({
+          showOtherMonths: true,
+          selectOtherMonths: true
+        });
+    </script>
+	
+	
+	
+	
+  </body>
+</html>
